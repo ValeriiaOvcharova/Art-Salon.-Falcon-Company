@@ -1,0 +1,56 @@
+nav .language{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20%;
+  background: var(--global-background);
+  /* box-shadow: 0 3px 10px -2px rgba(0,0,0,.1); */
+  /* border: 1px solid #fff(0,0,0,.1); */
+}
+.language ul{
+    list-style: none;
+    position: relative;
+    float: right;
+    display: inline-table;
+  }
+  .language ul li{
+      -webkit-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+    }
+
+    .language ul li:hover{
+		color: var(--global-link-hover-color);
+	}
+    .language ul li:hover > ul{display: block;}
+    .language ul li{
+      -webkit-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+    }
+	.language ul li a {
+        display: block; 
+        color: var(--global-link-hover-color); 
+        font-size: .9em;
+        letter-spacing: 1px;
+        text-decoration: none;
+        text-transform: uppercase;
+	  }
+      .language ul ul{
+        display: none;
+        background: var(--global-inverse-color);
+        position: absolute; 
+        top: 100%;
+        box-shadow: -3px 3px 10px -2px rgba(0,0,0,.1);
+        border: 1px solid rgba(0,0,0,.1);
+      }
+	  .language ul ul li{float: none; position: relative;}
+	  .language ul ul li a {
+            padding: 15px 30px; 
+            border-bottom: 1px solid rgba(0,0,0,.05);
+          }
+          .language ul ul ul {
+            position: absolute; 
+            left: 100%; 
+            top:0;
+          }	

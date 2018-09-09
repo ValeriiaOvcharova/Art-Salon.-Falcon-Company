@@ -1,0 +1,86 @@
+
+.hero {
+    position: relative;
+	padding-top: 220px;
+	max-height: 900px;
+}
+.hero-main{
+	position: relative;
+	display: flex;
+}
+.hero-background{
+	background-image: url(../../../images/hero-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	background-position: 50% 50%;
+	left: 0;
+    right: 0;
+    top: 0;
+	bottom: 0;
+}
+.vertical-pattern{
+	padding-left: 225px;
+	padding-top: 60px;
+}
+.hero-main-container{
+    margin: 0 auto;
+    max-width: 576px;
+	justify-content: center;
+    flex-flow: row wrap;
+}
+.main-top{
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+	width: 100%;
+}
+.hero-foreground{
+	position: relative;
+}
+.hero-main-container{
+	max-width: 500px;
+	margin: 0 auto;
+}
+.main-top::after{
+	content: "";
+    min-width: 100%;
+    display: block;
+    height: 1px;
+    left: 0;
+    margin: 18px auto 20px;
+    background-color: #ffff;
+}
+.main-bottom{
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+.hero-text-container{
+	max-width: 308px;
+	margin: 0 auto;
+}
+.upper{
+	text-transform: uppercase;
+}
+.hero-foreground-left{
+	max-width: 14%;
+	background-repeat: no-repeat;
+	left: 10%;
+    margin-bottom:-50px;
+}
+.hero-foreground-right{
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 0;
+	max-width: 33%;
+    top: 168px;
+}
+.site-name{
+	flex-wrap: wrap;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+
+}

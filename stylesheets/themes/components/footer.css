@@ -1,0 +1,17 @@
+.footer-main{
+	min-height: 120px;
+}
+.footer-backround{
+	background-color: var(--global-muted-color);
+	min-height: 120px;
+}
+.footer-backround{
+	background-image: url(../../../images/footer-background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	left: 0;
+    right: 0;
+    top: 0;
+	bottom: 0;
+}

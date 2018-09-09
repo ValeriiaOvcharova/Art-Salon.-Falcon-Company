@@ -1,0 +1,28 @@
+:root {
+  --global-font-family:                            Montserrat Light, arial, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+
+  --global-font-size:                              16px;
+  --global-line-height:                            22px;
+
+  --global-font-weight:                            normal;
+  --global-color:                                  #ffff;
+  --global-muted-color:                            #f6f6f6;
+
+  --global-link-color:                             #f6f6f6;
+  --global-link-hover-color:                       #c19a3b;
+
+  --global-inverse-color:                          #fff;
+
+  --global-background:                             #fff;
+
+  --global-muted-background:                       #eef1ec;
+
+
+  --global-success-background:                     #f0506e;
+  --global-warning-background:                     #f0506e;
+  --global-danger-background:                      #f0506e;
+
+  --global-border-width:                           1px;
+  --global-border:                                 #c1d3d2;
+  --globar-border-radius:                          2px;
+}

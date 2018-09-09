@@ -1,0 +1,80 @@
+*{
+	box-sizing: border-box;
+}
+html, body{
+	width: 100%;
+	/* height: 100%; */
+}
+header {
+
+    position: absolute;
+    top: 0;
+	width: 100%;
+	display: flex;
+	z-index: 980;
+}
+.header-navigation-sandwich{
+	display: flex;
+	align-self: center;
+	flex: start;
+}
+.phone-wrapper{
+	min-width: 44%;
+}
+.header-phone{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.header-phone ul{
+	font-size: 12px;
+	display: flex;
+	margin: 0;
+	align-items: center;
+	list-style-type: none;
+	padding-right: 40px;
+}
+.phone-link{
+	padding-left: 40px;
+	font-family: var(--base-font-family);
+}
+.header-logo{
+	display: flex;
+	justify-content: center;
+	width: 114px;
+	height: 120px;
+	background-color: #ffff;
+	align-items: center;
+	background-position: center;
+}
+.logo-icon{
+	display: flex;
+	margin: 0 auto;
+}
+.menu-wrapper{
+	min-width: 39%;
+}
+.header-menu{
+	justify-content: flex-end;
+	padding-top: 50px;
+}
+.header-menu ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: center;
+	margin: 0;
+	list-style-type: none;
+}
+.header-menu-item{
+	padding-left:40px;
+	font-size: 28px;
+}
+.menu-icon{
+color: white;
+}
+
+.hero-foreground-left{
+	max-width: 268px;
+	position: absolute;
+}
